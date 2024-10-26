@@ -81,7 +81,6 @@ let HowItWorks = () => {
       
             
     </div>
-    <Features/>
     </div>
   );
 };

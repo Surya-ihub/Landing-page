@@ -41,7 +41,6 @@ let HomePage = () => {
                 </div>
             </div>
             <WhatWeOffer />
-            <HowItWorks/>
         </div>
     );
 };

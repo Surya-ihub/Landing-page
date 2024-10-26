@@ -40,7 +40,6 @@ let About = () => {
       </section> */}
         <Timeline />
       </div>
-      <Contact />
     </div>
   );
 };

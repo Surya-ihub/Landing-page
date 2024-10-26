@@ -53,7 +53,7 @@ let Features = () => {
                     </div>
                 </div>
             </div>
-            <About />
+
         </div>
 
 
