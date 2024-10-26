@@ -6,7 +6,7 @@ let HomePage = () => {
     useEffect(() => {
         let videoElement = document.getElementById("bg-video");
         if (videoElement) {
-            videoElement.playbackRate = 0.9;
+            videoElement.playbackRate = 0.4;
         }
         let handleScroll = () => {
             let scrollPosition = window.scrollY;
