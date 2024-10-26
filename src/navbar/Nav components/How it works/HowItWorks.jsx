@@ -1,6 +1,8 @@
 import login from "../../Nav components/Home page/images/login.png";
 import career from "../../Nav components/Home page/images/path.png";
+
 import "./HowItWorks.css"
+
 import like from "./images/like.png"
 import think from "./images/skill.png"
 import path from "./images/path.png"
