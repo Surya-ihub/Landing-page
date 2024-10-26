@@ -11,7 +11,7 @@ let HomePage = () => {
         let handleScroll = () => {
             let scrollPosition = window.scrollY;
             let parallaxElement = document.querySelector('.home-page');
-            let speedFactor = 0.4;
+            let speedFactor = 0.8;
             parallaxElement.style.backgroundPositionY = `${scrollPosition * speedFactor}px`;
         };
 
