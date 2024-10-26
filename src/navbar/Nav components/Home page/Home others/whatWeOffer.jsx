@@ -1,5 +1,5 @@
 import React from 'react';
-import './WhatWeOffer.css';
+import './whatWeOffer.css';
 
 
 let WhatWeOffer = () => {
