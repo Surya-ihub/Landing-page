@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+
 import HomePage from "./navbar/Nav components/Home page/NavHome";
 import HowItWorks from "./navbar/Nav components/How it works/HowItWorks";
 import Features from "./navbar/Nav components/Features/Features";

@@ -1,9 +1,8 @@
 import { useEffect } from "react";
-import video from "./bg-video-page-2.mp4";
-// import video from "./video-2.mp4";
+
 import "./Feature.css";
 import { data } from "./data";
-import About from "../About/About";
+
 
 
 let Features = () => {

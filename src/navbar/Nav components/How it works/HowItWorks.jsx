@@ -1,13 +1,14 @@
+import "./HowItWorks.css"
+
 import login from "../../Nav components/Home page/images/login.png";
 import career from "../../Nav components/Home page/images/path.png";
 
-import "./HowItWorks.css"
+
 
 import like from "./images/like.png"
 import think from "./images/skill.png"
 import path from "./images/path.png"
 import test from "./images/testing.png"
-import Features from "../Features/Features";
 
 let HowItWorks = () => {
   return (
@@ -37,18 +38,6 @@ let HowItWorks = () => {
             <img src={career} className="log-img w-[500px] h-[400px] rounded-lg" alt="Choose Path" />
 
           </div>
-
-          {/* Step 3 (Optional Step) */}
-          {/* <div className="flex flex-row items-center gap-8">
-            <img src={login} className="log-img w-[300px] h-[400px] rounded-lg" alt="Start Solving" />
-            <div className="p-6 bg-dark rounded shadow-md transition-transform transform">
-              <h3 className="text-white text-xl font-semibold">3. Start Solving</h3>
-              <p className="text-white mt-2">Engage with real-world problems and track your progress.</p>
-              <button className='rounded-lg bg-red-600 text-white px-6 py-2 text-lg mt-2 hover:bg-[#F15555] transition duration-300 ease-in-out shadow-lg hover:shadow-xl'>
-                Solve
-              </button>
-            </div>
-          </div> */}
         </div>
 
       </div>

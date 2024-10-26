@@ -1,8 +1,6 @@
-import bg from "./images/bg-3.jpg";
 import "./HomePage.css";
 import { useEffect } from "react";
 import WhatWeOffer from "./Home others/whatWeOffer";
-import HowItWorks from "../How it works/HowItWorks";
 
 let HomePage = () => {
     useEffect(() => {

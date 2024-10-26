@@ -1,6 +1,5 @@
 import React from 'react';
 import './WhatWeOffer.css';
-import HowItWorks from '../../How it works/HowItWorks';
 
 
 let WhatWeOffer = () => {
