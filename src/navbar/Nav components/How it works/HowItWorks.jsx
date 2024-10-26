@@ -1,4 +1,4 @@
-import "./HowItWorks.css"
+import "./HowitWorks.css"
 
 import login from "../../Nav components/Home page/images/login.png";
 import career from "../../Nav components/Home page/images/path.png";
