@@ -1,0 +1,114 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.main-nav {
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+
+span {
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+span:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+span:hover {
+  color: white;
+  font-weight: bold;
+}
+
+span:hover:after {
+  width: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.main-nav {
+    width: 100%;
+    transition: background-color 0.3s ease;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+.bg-transparent-clr {
+    background-color: transparent;
+}
+
+.bg-black-clr {
+    background-color: black !important;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    /* border-bottom: 1px solid rgb(187, 185, 185); */
+}
+
+span {
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+span:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease, left 0.3s ease;
+    width: 0;
+}
+
+span:hover {
+    color: white;
+    font-weight: bold;
+}
+
+span:hover:after {
+    width: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.active {
+    font-weight: bolder;
+    color: #fff;
+}

@@ -1,0 +1,99 @@
+
+  .feature-page {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(./network.jpg);
+    background-size: cover;
+
+  }
+  
+  .main-feature {
+    position: relative;
+    z-index: 10;
+  }
+  
+  h2 {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+    color: black;
+  }
+  .image-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.image-card {
+    position: relative;
+    width: 320px;
+    height: 350px;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    cursor:pointer;
+}
+
+.left-card img {
+    width: 320px;
+    height: 350px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.right-card {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 97%;
+    height: 97%;
+    opacity: 0.3;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    padding: 20px;
+    text-align: center;
+    transform: translateX(200px);
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.image-card:hover .right-card {
+    opacity: 1;
+    transform: translateY(0) scale(1.1);
+}
+.image-card:hover .right-card p{
+    transform: translateY(0);
+    font-size: 14px;
+}
+.image-card:hover .left-card img {
+    transform: scale(0.97);
+}
+
+.image-slider:hover .image-container {
+    animation-play-state: paused;
+}
+
+.image-card:hover {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 16px, rgba(0, 0, 0, 0.1) 0px 4px 8px;
+    transform: translateY(-5px);
+}
+#bg-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  object-fit: cover
+}
+  
